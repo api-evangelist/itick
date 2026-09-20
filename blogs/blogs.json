@@ -1,0 +1,14 @@
+{
+  "repo": "itick",
+  "feeds": [
+    {
+      "source": "https://github.com/itick-org",
+      "feed_url": "https://github.com/itick-org",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-19T20:17:39Z"
+}

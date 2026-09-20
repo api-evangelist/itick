@@ -2,16 +2,16 @@
 kin_checks:
   slug: itick
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  run_ts: 2026-09-18T231945
+  scored_at: '2026-09-19'
+  run_ts: 2026-09-19T193153
   note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
     apply in `na`. Everything else in rubric/scoring-0.22.0.yml was earned; counts
     below let you verify that.
   counts:
     total: 136
-    earned: 33
-    partial: 4
-    missed: 57
+    earned: 29
+    partial: 5
+    missed: 60
     na: 42
   checks:
   - id: image_present
@@ -68,6 +68,15 @@ kin_checks:
     status: missed
   - id: examples_published
     status: missed
+  - id: documentation_present
+    status: missed
+    detail: pointer liveness 0.0
+  - id: api_reference_present
+    status: missed
+    detail: pointer liveness 0.0
+  - id: getting_started_present
+    status: missed
+    detail: pointer liveness 0.0
   - id: sdk_count_3
     status: missed
   - id: cli_present
@@ -128,6 +137,10 @@ kin_checks:
     status: missed
   - id: agentic_commerce
     status: missed
+  - id: github_org_present
+    status: partial
+    earned: 1.0
+    detail: pointer liveness 0.5
   - id: mcp_server
     status: partial
     earned: 4.8
