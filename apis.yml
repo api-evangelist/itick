@@ -110,6 +110,8 @@ generated:
   confidence: 95
   at: '2026-09-16T08:01:21.721Z'
 common:
+- type: RateLimits
+  url: rate-limits/itick-rate-limits.yml
 - type: DomainSecurity
   url: security/itick-domain-security.yml
 - type: Website
