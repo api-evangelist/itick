@@ -1,0 +1,145 @@
+edges:
+- partner_name: Go module proxy
+  partner: null
+  partner_match: null
+  type: register
+  direction: provider-built
+  category: official SDK (Go)
+  evidence: https://pkg.go.dev/github.com/itick-org/go-sdk
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: Go module proxy (public registry JSON)
+    spec_file: null
+    language: Go
+    packages:
+    - name: github.com/itick-org/go-sdk
+      version: v0.0.0-20260517121531-1c446062090d
+      released: '2026-05-17'
+      released_field: Time
+      lapsed: false
+      page: https://pkg.go.dev/github.com/itick-org/go-sdk
+      repo_leg: github-org:itick-org
+      publisher_leg: org:itick-org
+      matched_by: github-org
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@itick/browser-sdk
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@itick/browser-sdk'
+      version: 1.0.2
+      released: '2026-04-11'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@itick/browser-sdk
+      repo_leg: domain:itick.org
+      publisher_leg: org:itick
+      matched_by: domain
+    - name: '@itick/chat-core'
+      version: 1.0.1
+      released: '2026-08-05'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@itick/chat-core
+      repo_leg: github-org:itick-org
+      publisher_leg: org:itick
+      matched_by: github-org
+    - name: '@itick/chat-react'
+      version: 1.0.1
+      released: '2026-08-05'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@itick/chat-react
+      repo_leg: github-org:itick-org
+      publisher_leg: org:itick
+      matched_by: github-org
+    - name: '@itick/chat-vue'
+      version: 1.0.1
+      released: '2026-08-05'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@itick/chat-vue
+      repo_leg: github-org:itick-org
+      publisher_leg: org:itick
+      matched_by: github-org
+    - name: '@itick/node-sdk'
+      version: 1.0.3
+      released: '2026-04-11'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@itick/node-sdk
+      repo_leg: domain:itick.org
+      publisher_leg: org:itick
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+- partner_name: PyPI
+  partner: pypi
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (Python)
+  evidence: https://pypi.org/project/itick-sdk/
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: PyPI (public registry JSON)
+    spec_file: null
+    language: Python
+    packages:
+    - name: itick-sdk
+      version: 0.1.0
+      released: '2026-04-25'
+      released_field: upload_time
+      lapsed: false
+      page: https://pypi.org/project/itick-sdk/
+      repo_leg: github-org:itick-org
+      publisher_leg: email:itick.org
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
