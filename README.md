@@ -1,4 +1,4 @@
-# financial-data-api-documentation-restful-websocket-fix-guide
+# iTick
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -65,3 +65,112 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 Real-time and historical financial market data across stocks, forex, indices, crypto, futures, and funds, delivered via REST, WebSocket, and FIX interfaces, plus a hosted MCP server and embeddable AI agent chat.
+
+**Areas:** Financial Data · Market Data · Stocks · Foreign Exchange · Cryptocurrency · Indices · Futures · Fund · Real-Time Data · WebSocket · FIX Protocol · Fintech
+
+## iTick on APIs.io
+
+Everything profiled for iTick is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/itick/](https://apis.io/providers/itick/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [iTick Market Data API](https://apis.io/apis/itick/itick-market-data-api/) — Token-authenticated REST and WebSocket API for real-time and historical financial market data across crypto, forex, indices, stock, future, and fund product…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [mcp](https://apis.io/servers/itick/mcp/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Itick Authentication](https://apis.io/security/itick/itick-authentication/)
+- [Itick Domain Security](https://apis.io/security/itick/itick-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Itick Plans Pricing](https://apis.io/plans/itick/itick-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Itick Rate Limits](https://apis.io/rate-limits/itick/itick-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://itick.org/en)
+- [Documentation](https://docs.itick.org/en)
+- [Getting started](https://docs.itick.org/en/getting-started)
+- [API reference](https://docs.itick.org/en/api-url)
+- [Pricing](https://itick.org/en/pricing)
+- [Sign up](https://itick.org/en/dashboard)
+- [Support](https://itick.org/en/contact)
+- [Blog](https://itick.org/en/blog)
+- [Terms of service](https://itick.org/en/terms)
+- [Privacy policy](https://itick.org/en/privacy)
+- [GitHub](https://github.com/itick-org)
+- [Status](https://status.itick.org)
+
+## API Evangelist rating
+
+**Kin Score 38.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 76.3 |
+
+**Agent readiness 11.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 28.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/itick/](https://apis.io/providers/itick/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for iTick: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/itick/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
